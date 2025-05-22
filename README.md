@@ -1,4 +1,4 @@
-# 🔍 VisualVM Workshop – Java-Profiling leicht gemacht
+# VisualVM Workshop – Java-Profiling leicht gemacht
 
 Dieses Repository enthält den vollständigen Code und begleitende Materialien für einen interaktiven Workshop zum Thema **Java-Profiling mit VisualVM**.
 
@@ -49,5 +49,11 @@ java org.workshop.CpuLoadToggle
 - 🔗 [VisualVM offizielle Website](https://visualvm.github.io/)
 - 📘 [Dokumentation von VisualVM](https://visualvm.github.io/documentation.html)
 - 📦 [JMX Remote Monitoring Guide (Oracle)](https://docs.oracle.com/javase/8/docs/technotes/guides/management/agent.html)
+
+## Workshop-Zusammenfassung
+
+Eine kompakte Zusammenfassung des Workshops mit Erklärungen und Links ist hier verfügbar:
+
+[workshop-zusammenfassung.pdf](./workshop-zusammenfassung.pdf)
 
 ---

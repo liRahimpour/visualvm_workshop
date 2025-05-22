@@ -54,6 +54,6 @@ java org.workshop.CpuLoadToggle
 
 Eine kompakte Zusammenfassung des Workshops mit Erklärungen und Links ist hier verfügbar:
 
-[workshop-zusammenfassung.pdf](./workshop-zusammenfassung.pdf)
+[VisualVM_Workshop.pdf](./VisualVM_Workshop.pdf)
 
 ---

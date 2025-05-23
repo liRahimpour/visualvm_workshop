@@ -20,8 +20,12 @@ public class CpuLoadToggle {
             while (true) {
                 if (busy) {
                     // CPU-Last
-                    for (int i = 0; i < 1_000_000; i++) {
-                        Math.sqrt(i); // Dummy-Berechnung
+                    methodeKurz();
+                    methodeLang();
+
+                    for (int i = 0; i < 10000; i++) {
+                        Math.sqrt(3*i+2); // Dummy-Berechnung
+
                     }
                 } else {
                     try {
@@ -33,6 +37,8 @@ public class CpuLoadToggle {
                 }
             }
         }, "CpuWorker"); // <<< Thread-Name
+
+
 
         loadThread.setDaemon(true);
         loadThread.start();
@@ -55,6 +61,18 @@ public class CpuLoadToggle {
             } else {
                 System.out.println("Ungültiger Befehl. Nutze 'on', 'off' oder 'exit'.");
             }
+        }
+    }
+
+    static void methodeKurz(){
+        for(int i=0; i<30000; ++i){
+            Math.sqrt(i*3);
+        }
+    }
+
+    static void methodeLang(){
+        for(int i=0; i<1000000; ++i){
+            Math.sqrt(i*3+1);
         }
     }
 }
